@@ -3,7 +3,7 @@
 This project utilizes the National Vulnerability Database (NVD) by the National Institute of Standards and Technology (NIST) to assess the severity level of Common Vulnerabilities and Exposures (CVEs). We leverage information from CVEs such as exploitability score, impact score, and vendor assessments to determine whether a CVE is severe or not.
 
 # Purpose
-This project is part of the training for TeamQ, a subgroup within the wanna.w1n club affiliated with the Information Security Laboratory at Ho Chi Minh City National University. The theme of this project is software security.
+This project is part of the training program for TeamQ, a small group within the Wanna.w1n club at the University of Information Technology - Vietnam National University, Ho Chi Minh City. The theme of this project is software security.
 
 # Usage
 1. Data Collection: You need to collect data from NVD, which can be done through the API or by downloading published data files. Then, process the CVE data as shown in ModuleA_DataFetch.ipynb to prepare it for the binary classification problem.
