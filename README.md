@@ -1,4 +1,4 @@
-# TeamQ_Training_ModuleA
+# Classification model uses NVD to evaluate the severity of CVEs
 # Introduction
 This project utilizes the National Vulnerability Database (NVD) by the National Institute of Standards and Technology (NIST) to assess the severity level of Common Vulnerabilities and Exposures (CVEs). We leverage information from CVEs such as exploitability score, impact score, and vendor assessments to determine whether a CVE is severe or not.
 
