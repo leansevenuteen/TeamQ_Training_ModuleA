@@ -8,7 +8,7 @@ This project is part of the training program for TeamQ, a small group within the
 # Usage
 1. Data Collection: You need to collect data from NVD, which can be done through the API or by downloading published data files. Then, process the CVE data as shown in ModuleA_DataFetch.ipynb to prepare it for the binary classification problem.
 
-2. Model Building: Using information from the combined_data.csv, I have built a binary classification model to evaluate the severity based on base scores. Specifically, the model I used is a CNN model with ReLU and sigmoid activation functions, and binary_crossentropy loss function.
+2. Model Building: Using information from the combined_data.csv, I have built a binary classification model to evaluate the severity based on base scores. Specifically, the model I used is a DNN model with ReLU and sigmoid activation functions, and binary_crossentropy loss function.
 
 3. Evaluating CVEs: I employ common evaluation metrics for classification problems, including accuracy, precision, recall, and f1-score.
 
